@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Send header to inform i3bar we are using JSON
+echo '{"version":1}'
+
+# Begin the "infinite" array
+echo '['
+
+# Send the first empty block
+echo '[],'
+
+# Start sending the stream
+exec conky -c /home/$USER/.i3/conkyrc
+
