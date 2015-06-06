@@ -1,0 +1,11 @@
+# VOL Increase
+"amixer set Master 5%+"
+XF86AudioRaiseVolume
+
+#VOL Decrease
+"amixer set Master 5%-"
+XF86AudioLowerVolume
+
+#VOL Mute/Unmute
+"amixer set Master toggle"
+XF86AudioMute
