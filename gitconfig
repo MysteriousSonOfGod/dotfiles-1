@@ -1,0 +1,10 @@
+[user]
+	name = Giuseppe Zerilli
+	email = giuseppezerilli@gmail.com
+
+[alias]
+	sta = status
+	com = commit
+
+[push]
+	default = simple
