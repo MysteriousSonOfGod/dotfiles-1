@@ -1,4 +1,4 @@
-# VOL Increase
+#VOL Increase
 "amixer set Master 5%+"
 XF86AudioRaiseVolume
 
@@ -9,3 +9,11 @@ XF86AudioLowerVolume
 #VOL Mute/Unmute
 "amixer set Master toggle"
 XF86AudioMute
+
+#LUM Increase
+"xbacklight -inc 5"
+m:0x0 + c:233
+
+#LUM Decrease
+"xbacklight -dec 5"
+m:0x0 + c:232
